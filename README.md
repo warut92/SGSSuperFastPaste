@@ -11,4 +11,4 @@
 # แหล่งข้อมูล
 - [Chrome Extension v3 Starter](https://github.com/SimGus/chrome-extension-v3-starter/tree/master)
 
-## Use at youre own risk
+## Use at your own risk
