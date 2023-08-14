@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "SGS Super Fast Paste",
+  "version": "0.0.0.1",
+
+  "description": "SGS Super Fast Paste",
+
+  "action": {
+        "default_title": "SGS Super Fast Paste",
+        "default_popup": "popup.html"
+    },
+  "icons": {
+    "48": "icon/logo-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://sgs3.bopp-obec.info/sgs/TblTranscripts/*"],
+      "js": ["app.js"]
+    }
+  ]
+}

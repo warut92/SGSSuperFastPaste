@@ -1,8 +1,4 @@
-// This script gets injected into any opened page
-// whose URL matches the pattern defined in the manifest
-// (see "content_script" key).
-// Several foreground scripts can be declared
-// and injected into the same or different pages.
+document.body.style.border = "5px solid yellow";
 
 console.log("พร้อมกรอกคะแนน")
 
@@ -26,17 +22,12 @@ document.addEventListener("paste", (event) => {
   // find all other text inputs
   let allInputNode = document.querySelectorAll('input');
 
-    for (let i = 0; i < allInputNode.length; i++) {
+    for (let i = 0; i < score_data_40.length; i++) {
       let round = 13
       let x = 29
       let y = 32
-      allInputNode[x].style.backgroundColor = "red"
+      //allInputNode[x].style.backgroundColor = "red"
       allInputNode[x + (round * i)].value = score_data_40[i]
       allInputNode[y + (round * i)].value = score_data_10[i]
     }
 });
-
-
-function run() {
-  alert("พร้อมกรอกคะแนน")
-}

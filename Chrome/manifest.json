@@ -11,7 +11,7 @@
     },
     "options_page": "settings/settings.html",
     "action": {
-        "default_title": "Super Paste SGS",
+        "default_title": "SGS Super Fast Paste",
         "default_popup": "popup/popup.html"
     },
     "permissions": [],
