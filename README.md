@@ -1,4 +1,4 @@
-# Super Fast Paste SGS
+# SGS Super Fast Paste
 
 โปรแกรมส่วนขยาย Chrome Extension/FireFox add-on ช่วยกรอกคะแนนในระบบ SGS
 
